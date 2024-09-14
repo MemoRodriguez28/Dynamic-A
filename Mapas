@@ -1,0 +1,52 @@
+""" Laberinto 1
+# Definir el mapa (0 = libre, 1 = obstáculo)
+mapa = [
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+]
+
+# Crear nodos de inicio y objetivo
+inicio = Nodo(0, 0, costo=0)
+objetivo = Nodo(4, 10)
+"""
+
+
+""" Laberinto 2
+# Definir el mapa (0 = libre, 1 = obstáculo)
+mapa = [
+    [1, 1, 0, 1, 1],
+    [1, 0, 0, 0, 1],
+    [1, 0, 0, 1, 1],
+    [1, 0, 0, 0, 1],
+    [1, 0, 0, 0, 1],
+    [1, 0, 0, 1, 1],
+    [1, 0, 1, 0, 1],
+    [1, 0, 0, 0, 1],
+    [1, 0, 0, 0, 1],
+    [1, 0, 0, 0, 1],
+    [1, 1, 1, 0, 1],
+]
+
+# Crear nodos de inicio y objetivo
+inicio = Nodo(0, 2, costo=0)
+objetivo = Nodo(10, 3)
+"""
+
+
+"""Laberinto 3
+# Definir el mapa (0 = libre, 1 = obstáculo)
+mapa = [
+    [1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1],
+    [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+    [1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
+    [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1],
+    [1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1],
+]
+
+# Crear nodos de inicio y objetivo
+inicio = Nodo(0, 2, costo=0)
+objetivo = Nodo(4, 8)
+"""
